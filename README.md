@@ -1,11 +1,16 @@
 # Quectel_MHI
  Quectel Linux Pcie Mhi driver
- > yoki@ubuntu:/tmp/pcie_mhi$ uname -r
+
+# Env
+ ```
+ yoki@ubuntu:/tmp/pcie_mhi$ uname -r
 6.8.0-52-generic
 yoki@ubuntu:/tmp/pcie_mhi$ lsb_release -d
 No LSB modules are available.
 Description:    Ubuntu 24.04.1 LTS
+```
 
+# Log
 ```
 yoki@ubuntu:/tmp/pcie_mhi$ make
 make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/6.8.0-52-generic/build M=/tmp/pcie_mhi clean
