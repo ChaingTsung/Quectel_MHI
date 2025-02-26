@@ -1,5 +1,5 @@
 # Quectel_MHI
- Quectel Linux Pcie Mhi driver
+ Quectel Linux Pcie Mhi driver passed on Ubuntu 24.04 with kernel 6.8
 
 # Env
  ```
