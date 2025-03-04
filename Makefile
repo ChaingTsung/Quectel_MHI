@@ -43,3 +43,5 @@ define Build/Compile
 		$(MAKE_OPTS) \
 		modules
 endef
+
+$(eval $(call KernelPackage,pcie_mhi))
