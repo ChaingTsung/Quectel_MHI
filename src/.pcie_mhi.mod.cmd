@@ -1,0 +1,1 @@
+savedcmd_/home/yoki/others/src/Quectel_MHI/src/pcie_mhi.mod := printf '%s\n'   core/mhi_init.o core/mhi_main.o core/mhi_pm.o core/mhi_boot.o core/mhi_dtr.o controllers/mhi_qti.o devices/mhi_uci.o devices/mhi_netdev_quectel.o | awk '!x[$$0]++ { print("/home/yoki/others/src/Quectel_MHI/src/"$$0) }' > /home/yoki/others/src/Quectel_MHI/src/pcie_mhi.mod
